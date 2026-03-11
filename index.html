@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Hendra Cahyo Setiawan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        .title {
+            color: #3498db;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .contact-info {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        .experience-item, .education-item, .skill-category {
+            margin-bottom: 1.5rem;
+        }
+        .experience-header, .education-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        .experience-role, .education-degree {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .experience-company, .education-school {
+            color: #3498db;
+        }
+        .experience-period, .education-period {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        ul {
+            list-style-position: inside;
+            padding-left: 1rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .skill-category h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hendra Cahyo Setiawan</h1>
+            <div class="title">IT Infrastructure & IT Security Professional</div>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:hendrasetyawan1945@gmail.com">hendrasetyawan1945@gmail.com</a></span>
+                <span>📱 08995210144</span>
+                <span>🔗 <a href="https://www.linkedin.com/in/hendra-cahyo-setiawan">LinkedIn</a></span>
+                <span>🐙 <a href="https://github.com/Hendrasetyawan1945">GitHub</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Tentang Saya</h2>
+            <p>Seorang profesional di bidang IT Infrastruktur dan IT Security dengan pengalaman dalam implementasi sistem monitoring, keamanan siber, dan otomatisasi. Berpengalaman mengelola server Linux, monitoring menggunakan Grafana, perlindungan email dengan GoPhish, serta pengelolaan database PostgreSQL. Memiliki pemahaman dalam framework Odoo dan implementasi Wazuh untuk monitoring keamanan. Terbiasa menyusun kebijakan keamanan dan dokumentasi teknis untuk memastikan keamanan dan kepatuhan sistem.</p>
+        </section>
+
+        <section>
+            <h2>Pengalaman Kerja</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-role">IT Infrastruktur & IT Security</div>
+                        <div class="experience-company">PT Menara Agung (Honda)</div>
+                    </div>
+                    <div class="experience-period">Des 2023 – Sekarang</div>
+                </div>
+                <ul>
+                    <li>Mengelola infrastruktur IT dan monitoring server menggunakan Grafana</li>
+                    <li>Implementasi simulasi phishing menggunakan GoPhish untuk meningkatkan awareness keamanan</li>
+                    <li>Mengelola database PostgreSQL (backup, snapshot, replikasi, recovery)</li>
+                    <li>Analisis kerentanan sistem dan penerapan mitigasi keamanan</li>
+                    <li>Implementasi Wazuh untuk monitoring log dan deteksi anomali keamanan</li>
+                    <li>Administrasi server Linux dan optimasi performa sistem</li>
+                    <li>Melakukan audit keamanan berkala dan menyusun laporan analisis</li>
+                    <li>Menyusun kebijakan keamanan dan dokumentasi teknis</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Pengalaman Lain</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-role">Data Engineer Project Internship</div>
+                        <div class="experience-company">BTPN Syariah x Rakamin Academy</div>
+                    </div>
+                    <div class="experience-period">Nov 2023 – Des 2023</div>
+                </div>
+                <ul>
+                    <li>Pelatihan intensif Data Engineering</li>
+                    <li>Mempelajari Business Acumen dan Data Modeling</li>
+                    <li>Mengembangkan pipeline data untuk analisis data</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-role">Programmer Odoo Bootcamp</div>
+                        <div class="experience-company">HashMicro</div>
+                    </div>
+                    <div class="experience-period">Jul 2022 – Sep 2022</div>
+                </div>
+                <ul>
+                    <li>Pengembangan aplikasi menggunakan framework Odoo</li>
+                    <li>Penggunaan Git untuk version control</li>
+                    <li>Pengembangan modul Odoo dengan Python dan XML</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-role">Implementasi ERP</div>
+                        <div class="experience-company">PT Andromedia</div>
+                    </div>
+                    <div class="experience-period">Agu 2021 – Feb 2022</div>
+                </div>
+                <ul>
+                    <li>Implementasi sistem ERP perusahaan</li>
+                    <li>Pembuatan ERD dan arsitektur database</li>
+                    <li>Pengujian dan pengembangan sistem ERP</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Pendidikan</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <div class="education-degree">S1 Teknik Informatika</div>
+                        <div class="education-school">Institut Teknologi Padang</div>
+                    </div>
+                    <div class="education-period">2023</div>
+                </div>
+                <p>IPK: 3.87 (Terbaik di Jurusan)</p>
+                <p style="margin-top: 0.5rem;"><strong>Tugas Akhir:</strong> Pengembangan sistem manajemen gudang menggunakan Odoo 15 (XML, Python, PostgreSQL) untuk meningkatkan efisiensi pencatatan dan pelacakan stok.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Sertifikasi</h2>
+            <ul>
+                <li>IT Security – Digital Talent Scholarship</li>
+                <li>Cisco CyberOps Associate – Digital Talent Scholarship</li>
+                <li>DevNet Associate – Digital Talent Scholarship</li>
+                <li>Cisco CyberOps Associate (Jun 2024 – Jul 2033)</li>
+                <li>DevOps – Digital Talent Scholarship (Mar 2024)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Keahlian Teknis</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Sistem Operasi</h3>
+                    <p>Linux (Ubuntu, CentOS), Windows Server</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Monitoring & Security</h3>
+                    <p>Grafana, Prometheus, Wazuh, GoPhish, Fail2Ban, psad</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <p>PostgreSQL, MySQL</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Development</h3>
+                    <p>Python, XML, PHP, Odoo, Git</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <p>Data Modeling, Data Pipeline, Business Acumen</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Security Skills</h3>
+                    <p>Attack Methods, Computer Forensics, Data & Event Analysis, Security Policy Documentation</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
